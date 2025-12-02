@@ -1,0 +1,74 @@
+._navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+   
+}
+.container-fluid{
+   gap: 680px;
+}
+.navbar-brand{
+    position: relative;
+    left: 105px;
+    color: aliceblue;
+    
+}
+.nav1{
+    opacity: 0.8;
+}
+.nav2{
+ opacity: 0.6;
+}
+.bg-body-tertiary{
+    
+   background-color: rgb(1, 7, 7) !important;
+}
+.nav-link{
+    font-size: 14px;
+    color: aliceblue;
+ font-weight: 500;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+.numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+     font-weight: 500;
+}
+.time{
+    color: orange;
+}
+.reservasion{
+    color: aliceblue;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 14px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.navbar-collapse{
+    justify-content: space-around;
+    gap: 520px;
+    
+}
+.nav-link:hover{
+    color: orange;
+}
+.navbar-brand:hover{
+    color: aliceblue;
+}
+.nav-link:focus{
+    color: orange;
+}
+.ono:focus{
+    color: orange;
+}

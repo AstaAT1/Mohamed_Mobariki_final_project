@@ -1,0 +1,86 @@
+ .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+  
+    // inset: 0;
+    // z-index: 1;
+    // position: relative;
+    
+    // overflow: clip;
+  
+  }
+  .carousel-item{
+    height: 67vh;
+    min-height: 700px;
+    position: relative;
+}
+.page1{
+
+    
+    /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  z-index: 2;
+    row-gap: 10px;
+    position: absolute;
+
+  }
+  .orangespan{
+  color: orange;
+}
+.page1 p{
+  width: 60vw;
+  font-size: 15px;
+ color: aliceblue;
+   font-weight: 500;
+  
+animation: top 0.8s ease-out forwards;
+animation-delay: 0.3s;
+}
+.page1 h1{
+font-size: 46px;
+color: aliceblue;
+font-weight: bolder;
+animation: top 0.8s ease-out forwards;
+}
+.buttonx{
+  
+    width: 140px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 50px;
+      
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttony{
+  
+    width: 160px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 50px;
+      
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.page1 a{
+    font-size: 15px;
+ color: aliceblue;
+   font-weight: 500;
+     text-decoration: none;
+}
+.buttons{
+    display: flex;
+   
+    gap: 15px;
+}

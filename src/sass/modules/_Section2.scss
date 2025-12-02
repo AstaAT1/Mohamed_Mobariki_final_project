@@ -1,0 +1,96 @@
+._Section2 {
+  padding-top: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 249, 237);
+  gap: 30px;
+}
+
+.loremo {
+  font-style: italic !important;
+}
+
+.p-about {
+  font-size: 33px;
+  font-weight: 200;
+}
+
+.right {
+  width: 43%;
+  padding-bottom: 45px;
+  display: flex;
+
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.check {
+  color: #e1614b;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.lefto span {
+  color: #636262;
+  font-style: italic !important;
+}
+
+.lefto svg {
+  width: 39px;
+
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+
+}
+
+.linex {
+  display: flex;
+  width: 90%;
+  gap: 10px;
+}
+
+// .page{
+//   width: 100% !important;
+//   height: 100% !important;
+
+
+
+.modal-gallery {
+  background: transparent !important;
+  border: none;
+  position: absolute;
+  top: 50px;
+  left: -100px;
+  width: 50vw;
+  
+}
+
+.close-btn {
+  position: absolute;
+
+  left: 900px;
+  filter: invert(1);
+  z-index: 999;
+}
+
+.gallery-img {
+  max-height: 80%;
+
+}
+
+.position {
+  position: absolute;
+  left: 900px;
+}
+
+.position2 {
+  position: absolute;
+  left: -330px;
+}

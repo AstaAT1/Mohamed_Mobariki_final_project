@@ -1,0 +1,9 @@
+@mixin toFlex($flex, $items, $justify, $space)
+{
+ display: $flex;
+    align-items: $items;
+    justify-content: $justify;
+    flex-direction: $direction;
+    gap: $space;
+}
+   
