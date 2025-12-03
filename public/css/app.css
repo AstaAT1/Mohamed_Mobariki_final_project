@@ -12586,6 +12586,19 @@ input {
   width: 30%;
 }
 
+.gallery {
+  font-size: 14px;
+  font-weight: 600;
+  color: orange;
+  background-color: rgb(255, 230, 183);
+  width: 100px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
 * {
   padding: 0;
   margin: 0;
