@@ -12624,6 +12624,7 @@ input {
   gap: 20px;
   height: 90vh;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .gallery {
@@ -12674,6 +12675,10 @@ input {
 
 .memory:hover img {
   transform: scale(1.1);
+}
+
+.card {
+  border-radius: unset !important;
 }
 
 * {
