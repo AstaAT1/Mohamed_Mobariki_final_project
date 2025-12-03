@@ -1,0 +1,79 @@
+._Section6{
+height: 100vh;
+}
+.page2{
+      display: flex;
+  color: aliceblue !important;
+  width: 100%;
+  justify-content: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  z-index: 2;
+    gap: 20px;
+    position: absolute;
+}
+
+.righta {
+  width: 80%;
+  padding-bottom: 45px;
+  display: flex;
+ width: 40%;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.container-fluid{
+   gap: 680px;
+}.classroom h3{
+      font-family: "Satisfy", cursive;
+      font-weight: 600;
+}
+.classroom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page2 img {
+    width: 600px !important;
+      filter: brightness(100%) !important;
+}
+  .carousel-item{
+    height: 67vh;
+    min-height: 600px;
+    position: relative;
+    /* transition: transform 0.6 ease-in-out;
+    float: left;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: none; */
+  }
+   .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+        filter: brightness(30%);
+  }
+  .carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+  }
+  #carouselExampleAutoplaying{
+    autoplayTimeout: 2000;
+ }
+ .spana{
+    border-bottom: 2px solid orange;
+    width: 33px;
+ }
+  .spana2{
+    border-bottom: 2px solid orange;
+    width: 45px;
+ }
+ .line i , .linex i{
+    color: orange;
+    font-size: 20px;
+ }

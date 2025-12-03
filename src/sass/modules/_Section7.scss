@@ -1,0 +1,74 @@
+._Section7 {
+    gap: 20px;
+    
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.bookta{
+      font-size: 14px;
+   font-weight: 500;
+   color: orange;
+   background-color: rgb(255, 230, 183);
+   width: 140px;
+   height: 33px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+}
+.tablo{
+    width: 90vw;
+    height: 75vh;
+    display: flex;
+    background-color: beige;
+}
+.cart-tablo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.rese-table{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orange;
+    font-weight: 600;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    border-radius: 5px;
+}
+.inputo:focus{
+    border: 4px solid  orange !important;
+}
+.inputo{
+    display: block;
+    padding: 8px;
+    width: 290px;
+}
+#area{
+    width: 920px;
+    padding: 8px;
+    height: 170px;
+}
+.tablo img{
+    height: 100%;
+    width: 30%;
+}
+.top-cart {
+
+} 
+.cart-last{
+
+}
+.cart-center{
+
+}

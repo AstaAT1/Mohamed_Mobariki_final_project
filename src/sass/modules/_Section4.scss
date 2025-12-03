@@ -21,12 +21,14 @@
     text-decoration: none;
     color: gray;
     font-size: 15px;
+    
 
 }
 
 .all-menu {
     display: flex;
     gap: 25px;
+  
       font-family: "Satisfy", cursive;
       
 }
@@ -37,7 +39,9 @@
     
 
 }
-
+label{
+      cursor:pointer;
+}
 .bold {
     font-weight: 700;
 }

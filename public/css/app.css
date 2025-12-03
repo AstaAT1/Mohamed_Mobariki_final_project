@@ -12018,6 +12018,14 @@ ul {
   align-items: center;
 }
 
+.buttony:hover {
+  background-color: orange;
+}
+
+.buttonx:hover {
+  background-color: orange;
+}
+
 .page1 a {
   font-size: 15px;
   color: aliceblue;
@@ -12248,6 +12256,10 @@ ul {
   gap: 30px;
 }
 
+label {
+  cursor: pointer;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -12332,6 +12344,7 @@ input {
 
 ._Section5 {
   gap: 20px;
+  height: 90vh;
   width: auto;
   display: flex;
   justify-content: center;
@@ -12410,6 +12423,167 @@ input {
   flex-direction: column;
   gap: 10px;
   justify-content: center;
+}
+
+._Section6 {
+  height: 100vh;
+}
+
+.page2 {
+  display: flex;
+  color: aliceblue !important;
+  width: 100%;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  gap: 20px;
+  position: absolute;
+}
+
+.righta {
+  width: 80%;
+  padding-bottom: 45px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  gap: 680px;
+}
+
+.classroom h3, .classroom .h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
+.classroom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page2 img {
+  width: 600px !important;
+  filter: brightness(100%) !important;
+}
+
+.carousel-item {
+  height: 67vh;
+  min-height: 600px;
+  position: relative;
+  /* transition: transform 0.6 ease-in-out;
+  float: left;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: none; */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+.carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+}
+
+#carouselExampleAutoplaying {
+  autoplayTimeout: 2000;
+}
+
+.spana {
+  border-bottom: 2px solid orange;
+  width: 33px;
+}
+
+.spana2 {
+  border-bottom: 2px solid orange;
+  width: 45px;
+}
+
+.line i, .linex i {
+  color: orange;
+  font-size: 20px;
+}
+
+._Section7 {
+  gap: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bookta {
+  font-size: 14px;
+  font-weight: 500;
+  color: orange;
+  background-color: rgb(255, 230, 183);
+  width: 140px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.tablo {
+  width: 90vw;
+  height: 75vh;
+  display: flex;
+  background-color: beige;
+}
+
+.cart-tablo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.rese-table {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: orange;
+  font-weight: 600;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.inputo:focus {
+  border: 4px solid orange !important;
+}
+
+.inputo {
+  display: block;
+  padding: 8px;
+  width: 290px;
+}
+
+#area {
+  width: 920px;
+  padding: 8px;
+  height: 170px;
+}
+
+.tablo img {
+  height: 100%;
+  width: 30%;
 }
 
 * {
