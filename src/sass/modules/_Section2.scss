@@ -1,11 +1,11 @@
 ._Section2 {
-  padding-top: 50px;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 249, 237);
-  gap: 30px;
+  gap: 20px;
+  height: 90vh;
 }
 
 .loremo {
@@ -55,7 +55,10 @@
   width: 90%;
   gap: 10px;
 }
-
+.right h3{
+     font-family: "Satisfy", cursive;
+      font-weight: 600;
+}
 // .page{
 //   width: 100% !important;
 //   height: 100% !important;
@@ -93,4 +96,16 @@
 .position2 {
   position: absolute;
   left: -330px;
+}.btn{
+  position: absolute;
+  left: 380px;
+  bottom: -320px;
+  background-color: orange;
+  border: none;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+.btn i{
+  font-size: 25px;
 }

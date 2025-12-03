@@ -1,0 +1,71 @@
+._Section5 {
+    gap: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.special{
+      font-size: 14px;
+   font-weight: 500;
+   color: orange;
+   background-color: rgb(255, 230, 183);
+   width: 100px;
+   height: 27px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.top-3 h2{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+}
+.list a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+}
+.list a:hover{
+    color: orange;
+}
+.bottom-5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.formation{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 65%;
+}
+.formation h4{
+    font-family: "Satisfy", cursive;
+      font-weight: 600;
+}
+.p-f1{
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+    font-style: italic !important;
+}
+.p-f2{
+      color: rgb(177, 177, 177);
+    font-weight: 500;
+}
+.check-formation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}

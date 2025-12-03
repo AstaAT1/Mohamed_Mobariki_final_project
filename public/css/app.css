@@ -11874,14 +11874,17 @@ textarea.form-control-lg {
   position: relative;
   left: 105px;
   color: aliceblue;
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .nav1 {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .nav2 {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .bg-body-tertiary {
@@ -11990,6 +11993,8 @@ ul {
   font-size: 46px;
   color: aliceblue;
   font-weight: bolder;
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
   animation: top 0.8s ease-out forwards;
 }
 
@@ -12026,13 +12031,13 @@ ul {
 }
 
 ._Section2 {
-  padding-top: 50px;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 249, 237);
-  gap: 30px;
+  gap: 20px;
+  height: 90vh;
 }
 
 .loremo {
@@ -12079,6 +12084,11 @@ ul {
   gap: 10px;
 }
 
+.right h3, .right .h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
 .modal-gallery {
   background: transparent !important;
   border: none;
@@ -12109,8 +12119,23 @@ ul {
   left: -330px;
 }
 
+.btn {
+  position: absolute;
+  left: 380px;
+  bottom: -320px;
+  background-color: orange;
+  border: none;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.btn i {
+  font-size: 25px;
+}
+
 ._Section3 {
-  height: 100vh;
+  gap: 35px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -12151,7 +12176,7 @@ ul {
 .cart {
   height: 50%;
   width: 27%;
-  background-color: rgba(142, 84, 84, 0.205);
+  background-color: rgba(225, 225, 225, 0.189);
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -12170,15 +12195,247 @@ ul {
   font-size: 23px;
 }
 
+.cart h4, .cart .h4 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
 .lorem {
   font-size: 14px;
   padding-top: 10px;
+}
+
+.cart:hover {
+  background-color: orange;
+  color: aliceblue;
+}
+.cart:hover .number {
+  color: aliceblue;
+}
+
+._Section4 {
+  gap: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.bottom-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.all-menu a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+
+.all-menu {
+  display: flex;
+  gap: 25px;
+  font-family: "Satisfy", cursive;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-finnaly {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-finnaly a {
+  text-decoration: none;
+  color: grey;
+}
+
+.lien-menu {
+  color: black;
+  font-weight: 700;
+}
+
+.sea {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(130, 130, 130);
+  position: relative;
+  top: -15px;
+  font-style: italic !important;
+}
+
+.menu-finnaly img {
+  border-radius: 50%;
+  border: 8px solid rgba(219, 219, 219, 0.762);
+}
+
+.name-menu::after {
+  content: " ................................................................................................... ";
+}
+
+input {
+  display: none;
+}
+
+.all:checked ~ .menu .menu-finnaly {
+  display: flex;
+}
+
+.starters:checked ~ .menu .menu-finnaly {
+  display: none;
+}
+
+.starters:checked ~ .menu .menu-finnaly.starters {
+  display: flex;
+}
+
+.salads:checked ~ .menu .menu-finnaly {
+  display: none;
+}
+
+.salads:checked ~ .menu .menu-finnaly.salads {
+  display: flex;
+}
+
+.specialty:checked ~ .menu .menu-finnaly {
+  display: none;
+}
+
+.specialty:checked ~ .menu .menu-finnaly.specialty {
+  display: flex;
+}
+
+._Section5 {
+  gap: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.special {
+  font-size: 14px;
+  font-weight: 500;
+  color: orange;
+  background-color: rgb(255, 230, 183);
+  width: 100px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.top-3 h2, .top-3 .h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
+.list a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(52, 52, 52);
+}
+
+.list a:hover {
+  color: orange;
+}
+
+.bottom-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.formation h4, .formation .h4 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
+.p-f1 {
+  color: rgb(177, 177, 177);
+  font-weight: 500;
+  font-style: italic !important;
+}
+
+.p-f2 {
+  color: rgb(177, 177, 177);
+  font-weight: 500;
+}
+
+.check-formation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=app.css.map */
