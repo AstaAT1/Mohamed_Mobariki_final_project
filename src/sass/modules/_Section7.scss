@@ -21,10 +21,10 @@
    border-radius: 50px;
 }
 .tablo{
-    width: 90vw;
+    width: 85vw;
     height: 75vh;
     display: flex;
-    background-color: beige;
+    background-color: rgba(232, 232, 232, 0.221);
 }
 .cart-tablo{
     display: flex;
@@ -43,7 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55px;
+    height: 50px;
     border-radius: 5px;
 }
 .inputo:focus{
@@ -61,14 +61,6 @@
 }
 .tablo img{
     height: 100%;
-    width: 30%;
+    width: 27%;
 }
-.top-cart {
 
-} 
-.cart-last{
-
-}
-.cart-center{
-
-}

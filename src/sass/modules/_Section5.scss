@@ -30,14 +30,16 @@
     font-family: "Satisfy", cursive;
     font-weight: 600;
 }
-.list a{
+.list label{
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     color: rgb(52, 52, 52);
 }
-.list a:hover{
-    color: orange;
+.list label:focus{
+    color: orange !important;
+ ;
+
 }
 .bottom-5{
     display: flex;
@@ -69,4 +71,30 @@
     gap: 10px;
     justify-content: center;
 
+}
+
+input {
+    display: none;
+}
+.formation {
+    display: none;
+}
+#Modi:checked ~ .Modi {
+    display: flex;
+}
+
+#Unde:checked ~ .Unde {
+
+    display: flex;
+}
+#Pariatur:checked ~ .Pariatur {
+    display: flex;
+}
+#Nostrum:checked ~ .Nostrum {
+    display: flex;
+}
+
+
+#lusto:checked ~ .lusto {
+    display: flex;
 }

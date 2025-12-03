@@ -12378,15 +12378,15 @@ input {
   font-weight: 600;
 }
 
-.list a {
+.list label {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
   color: rgb(52, 52, 52);
 }
 
-.list a:hover {
-  color: orange;
+.list label:focus {
+  color: orange !important;
 }
 
 .bottom-5 {
@@ -12425,6 +12425,34 @@ input {
   justify-content: center;
 }
 
+input {
+  display: none;
+}
+
+.formation {
+  display: none;
+}
+
+#Modi:checked ~ .Modi {
+  display: flex;
+}
+
+#Unde:checked ~ .Unde {
+  display: flex;
+}
+
+#Pariatur:checked ~ .Pariatur {
+  display: flex;
+}
+
+#Nostrum:checked ~ .Nostrum {
+  display: flex;
+}
+
+#lusto:checked ~ .lusto {
+  display: flex;
+}
+
 ._Section6 {
   height: 100vh;
 }
@@ -12437,6 +12465,7 @@ input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  filter: brightness(100%) !important;
   z-index: 2;
   gap: 20px;
   position: absolute;
@@ -12475,22 +12504,21 @@ input {
   height: 67vh;
   min-height: 600px;
   position: relative;
-  /* transition: transform 0.6 ease-in-out;
-  float: left;
-  margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  display: none; */
 }
 
-.carousel-item img {
+.coco {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/Delicious/images/events-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-caro {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(30%);
 }
 
-.carousel-indicators button {
+.button-circle {
   height: 10px !important;
   width: 10px !important;
   border-radius: 50%;
@@ -12538,10 +12566,10 @@ input {
 }
 
 .tablo {
-  width: 90vw;
+  width: 85vw;
   height: 75vh;
   display: flex;
-  background-color: beige;
+  background-color: rgba(232, 232, 232, 0.221);
 }
 
 .cart-tablo {
@@ -12561,7 +12589,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55px;
+  height: 50px;
   border-radius: 5px;
 }
 
@@ -12583,7 +12611,19 @@ input {
 
 .tablo img {
   height: 100%;
-  width: 30%;
+  width: 27%;
+}
+
+._Section8 {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 249, 237);
+  gap: 20px;
+  height: 90vh;
+  overflow: hidden;
 }
 
 .gallery {
@@ -12597,6 +12637,43 @@ input {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  overflow: hidden;
+}
+
+.bottom-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+}
+
+.boto8v1,
+.boto8v1 img {
+  display: flex;
+  width: 100%;
+  height: 278px;
+  gap: 4px;
+  transition: ease-in-out 0.4s;
+  transition: 0.4s ease;
+}
+
+.boto8v2,
+.boto8v2 img {
+  display: flex;
+  width: 100%;
+  height: 278px;
+  gap: 4px;
+  transition: ease-in-out 0.4s;
+}
+
+.memory {
+  overflow: hidden;
+}
+
+.memory:hover img {
+  transform: scale(1.1);
 }
 
 * {

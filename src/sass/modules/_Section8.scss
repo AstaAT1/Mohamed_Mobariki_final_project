@@ -1,12 +1,65 @@
-.gallery{
-      font-size: 14px;
-   font-weight: 600;
-   color: orange;
-   background-color: rgb(255, 230, 183);
-   width: 100px;
-   height: 33px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50px;
+._Section8 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 249, 237);
+    gap: 20px;
+    height: 90vh;
+    overflow: hidden;
+    
+}
+
+.gallery {
+    font-size: 14px;
+    font-weight: 600;
+    color: orange;
+    background-color: rgb(255, 230, 183);
+    width: 100px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+.bottom-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    overflow: hidden;
+
+}
+
+.boto8v1,
+.boto8v1 img {
+    display: flex;
+    width: 100%;
+    height: 278px;
+    gap: 4px;
+    transition: ease-in-out 0.4s;
+    transition: 0.4s ease;
+
+}
+
+.boto8v2,
+.boto8v2 img {
+    display: flex;
+    width: 100%;
+    height: 278px;
+    gap: 4px;
+    transition: ease-in-out 0.4s;
+}
+.memory{
+    overflow: hidden;
+
+}
+
+   .memory:hover img{
+    transform: scale(1.1);
 }
