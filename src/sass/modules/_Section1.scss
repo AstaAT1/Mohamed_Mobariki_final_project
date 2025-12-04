@@ -1,4 +1,4 @@
- .carousel-item img{
+ .caro-imgo{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -13,7 +13,7 @@
   }
   .carousel-item{
     height: 67vh;
-    min-height: 700px;
+    min-height: 700px !important;
     position: relative;
 }
 .page1{

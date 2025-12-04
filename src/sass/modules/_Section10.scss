@@ -1,0 +1,74 @@
+.coca{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/Delicious/images/testimonials-bg.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .heighto{
+    height: 70vh;
+     
+    position: relative;
+  }
+  .page3{
+      display: flex;
+color: aliceblue;
+flex-direction: column;
+  width: 100%;
+  justify-content: center !important;
+
+  align-items: center !important;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ filter: brightness(100%) !important;
+  z-index: 2;
+    gap: 20px;
+    position: absolute;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-img{
+    border-radius: 50%;
+    border: 6px solid rgba(184, 183, 183, 0.43);
+   
+}
+.rating{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.rating i{
+  color: gold;
+}
+.profilorem{
+    display: flex;
+    justify-content: center;
+  align-self: center;
+text-align: center;
+   font-style: italic !important;
+   font-weight: 500;
+    width: 80%;
+}
+.little{
+    font-size: 14px;
+ color: rgba(211, 211, 211, 0.838);
+     font-family: "Satisfy", cursive;
+      font-weight: 600;
+}
+.h5h5{
+    font-family: "Satisfy", cursive;
+      font-weight: 600;
+}
+.profilorem i{
+    padding: 10px;
+    font-size: 25px;
+    color: rgba(170, 170, 170, 0.871);
+}
+.ma9loba{
+        display: inline-block; 
+  transform: rotate(180deg);
+}

@@ -1,83 +1,96 @@
-._Section6{
-height: 100vh;
+._Section6 {
+  height: 100vh;
 }
-.page2{
-      display: flex;
+
+.page2 {
+  display: flex;
   color: aliceblue !important;
   width: 100%;
   justify-content: center;
 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- filter: brightness(100%) !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(100%) !important;
   z-index: 2;
-    gap: 20px;
-    position: absolute;
+  gap: 20px;
+  position: absolute;
 }
 
 .righta {
   width: 80%;
   padding-bottom: 45px;
   display: flex;
- width: 40%;
+  width: 40%;
   flex-direction: column;
   row-gap: 20px;
-   
- 
+
+
 }
 
-.container-fluid{
-   gap: 680px;
-}.classroom h3{
-      font-family: "Satisfy", cursive;
-      font-weight: 600;
+.container-fluid {
+  gap: 680px;
 }
-.classroom{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+
+.classroom h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
 }
+
+.classroom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .page2 img {
-    width: 600px !important;
-      filter: brightness(100%) !important;
+  width: 600px !important;
+  filter: brightness(100%) !important;
 }
-  .carousel-item{
-    height: 67vh;
-    min-height: 600px;
-    position: relative;
-  
-  }
-  .coco{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../../../public/Delicious/images/events-bg.jpg);
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-   .img-caro{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-       
-  }
-  .button-circle{
-    height: 10px !important;
-    width: 10px !important;
-    border-radius: 50%;
-  }
-  #carouselExampleAutoplaying{
-    autoplayTimeout: 2000;
- }
- .spana{
-    border-bottom: 2px solid orange;
-    width: 33px;
- }
-  .spana2{
-    border-bottom: 2px solid orange;
-    width: 45px;
- }
- .line i , .linex i{
-    color: orange;
-    font-size: 20px;
- }
- 
+
+.carousel-item {
+  height: 67vh;
+  min-height: 600px;
+  position: relative;
+
+}
+
+.coco {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/Delicious/images/events-bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-caro {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.button-circle {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+}
+
+#carouselExampleAutoplaying {
+  autoplayTimeout: 2000;
+}
+
+.spana {
+  border-bottom: 2px solid orange;
+  width: 33px;
+}
+
+.spana2 {
+  border-bottom: 2px solid orange;
+  width: 45px;
+}
+
+.line i,
+.linex i {
+  color: orange;
+  font-size: 20px;
+}
