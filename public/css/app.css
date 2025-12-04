@@ -11880,15 +11880,11 @@ textarea.form-control-lg {
 }
 
 .nav1 {
-  opacity: 0.9;
+  background-color: rgba(5, 2, 2, 0.94) !important;
 }
 
 .nav2 {
-  opacity: 0.7;
-}
-
-.bg-body-tertiary {
-  background-color: rgb(1, 7, 7) !important;
+  background-color: rgba(1, 7, 7, 0.623) !important;
 }
 
 .nav-link {
@@ -11897,7 +11893,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
-ul {
+.ulli {
   display: flex;
   gap: 10px;
 }
@@ -12230,6 +12226,10 @@ ul {
 
 .btn i {
   font-size: 25px;
+}
+
+.colobu:hover {
+  background-color: orange;
 }
 
 ._Section3 {
@@ -13269,6 +13269,10 @@ input {
   ._Section7, ._Section6 {
     padding-bottom: 50px;
     padding-top: -400px !important;
+  }
+  .navbar-collapse {
+    justify-content: space-around;
+    gap: 520px;
   }
 }
 * {

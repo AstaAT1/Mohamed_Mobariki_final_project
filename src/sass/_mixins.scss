@@ -1,4 +1,4 @@
-@mixin toFlex($flex, $items, $justify, $space)
+@mixin toFlex($flex, $items, $justify, $space , $direction)
 {
  display: $flex;
     align-items: $items;
