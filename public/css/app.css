@@ -11956,6 +11956,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .fotoya i {
@@ -12008,6 +12009,10 @@ ul {
   font-size: 17px;
 }
 
+.corto span, .sapana {
+  font-weight: bold;
+}
+
 .mediya {
   border: 1px solid rgba(190, 190, 190, 0.712);
   border-radius: 50%;
@@ -12016,6 +12021,22 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.oronga {
+  color: orange;
+}
+
+.bottom-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 14px;
+  border-top: 1px solid rgba(209, 209, 209, 0.195);
+  width: 80%;
+  padding-top: 25px;
 }
 
 .caro-imgo {
