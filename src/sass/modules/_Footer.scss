@@ -1,0 +1,59 @@
+._Footer{
+    background-color: rgb(23, 15, 15);
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fotoya i{
+    font-size: 22px;
+    color: orange;
+}
+.fotoya h6{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+.corto p{
+    margin-bottom: 0rem !important;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.904);
+}
+.fotoya{
+    display: flex;
+    gap: 10px;
+}
+.cartiya{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.top-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.adresa{
+    flex-direction: column;
+}
+.media{
+    display: flex;
+    gap: 20px;
+}
+.mediya i{
+    color: rgba(190, 190, 190, 0.712);
+    font-size: 17px;
+}
+.mediya{
+    border: 1px solid rgba(190, 190, 190, 0.712);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

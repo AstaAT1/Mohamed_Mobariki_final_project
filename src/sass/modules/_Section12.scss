@@ -1,0 +1,86 @@
+._Section12 {
+    gap: 40px;
+    height: 90vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-12 h4{
+    font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+.top-12 p{
+    font-size: 15px;
+
+    
+}
+
+.left-12{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.75);
+    width: 25%;
+    height: auto;
+    padding: 40px;
+    
+}
+.imposter{
+    border: none !important;
+}
+.right-12{
+    width: 60%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.salaw-smiyat{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.salaw1{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid  rgba(190, 190, 190, 0.904);
+    gap: 10px;
+}
+.salaw1 i{
+    font-size: 22px;
+    color: orange;
+}
+.smiyat1 h6{
+    font-size: 18px;
+    font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+.smiyat1 p{
+    font-size: 14px;
+    color: rgba(190, 190, 190, 0.904);
+}
+.worow{
+    display: flex; 
+    gap: 50px;
+}
+.inputa{
+    width: 400px !important;
+    display: block;
+    padding: 8px;
+   
+}
+.inpute{
+        width: 825px !important;
+    display: block;
+    padding: 8px;
+}
+.subject{
+    display: flex;
+
+}
+#arya{
+width: 825px !important;
+    height: 250px !important;
+        padding: 8px;
+}
