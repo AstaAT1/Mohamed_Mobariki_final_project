@@ -13119,8 +13119,19 @@ input {
   ._Section7 {
     height: 300vh;
   }
+  .navbar-brand {
+    position: relative;
+    left: 0;
+  }
+  .openaf {
+    position: absolute;
+    right: 0;
+  }
+  .ba7 {
+    display: none;
+  }
 }
-@media (max-width: 850px) {
+@media (max-width: 850px) and (min-width: 451px) {
   .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
     display: unset;
   }
@@ -13270,9 +13281,19 @@ input {
     padding-bottom: 50px;
     padding-top: -400px !important;
   }
-  .navbar-collapse {
-    justify-content: space-around;
-    gap: 520px;
+  .navbar-brand {
+    position: relative;
+    left: 0;
+  }
+  .openaf {
+    position: absolute;
+    right: 0;
+  }
+  .ba7 {
+    display: none;
+  }
+  .reservation {
+    display: block;
   }
 }
 * {
