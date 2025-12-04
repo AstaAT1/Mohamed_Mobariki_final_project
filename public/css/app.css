@@ -12636,6 +12636,8 @@ input {
 
 ._Section7 {
   gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -12713,7 +12715,7 @@ input {
   flex-direction: column;
   background-color: rgb(255, 249, 237);
   gap: 20px;
-  height: 90vh;
+  padding-top: 50px;
   overflow: hidden;
 }
 
@@ -12769,6 +12771,10 @@ input {
 
 .card {
   border-radius: unset !important;
+}
+
+._Section10 {
+  padding-top: 50px;
 }
 
 .coca {
@@ -12970,6 +12976,296 @@ input {
   padding: 8px;
 }
 
+@media (max-width: 450px) {
+  .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    display: unset;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  ._Section2 img {
+    width: 400px !important;
+    height: 250px !important;
+  }
+  ._Section2 {
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+  ._Section2 .right {
+    width: 90% !important;
+  }
+  ._Section2 button {
+    position: relative;
+    left: 150px;
+    top: -150px;
+  }
+  .bottom-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart {
+    width: 90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  ._Section5 {
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .bottom-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .formation {
+    flex-direction: column-reverse;
+  }
+  .page2 img {
+    display: block;
+    width: 350px !important;
+    height: auto;
+  }
+  .page2 {
+    flex-direction: column;
+    width: auto;
+  }
+  .righta {
+    width: 90% !important;
+  }
+  .carousel-item {
+    height: 140vh;
+    min-height: 600px;
+    position: relative;
+  }
+  .tablo {
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+  }
+  #area {
+    width: 350px;
+    padding: 8px;
+    height: 170px;
+  }
+  .tablo img {
+    width: 100%;
+  }
+  .inputo {
+    width: 350px;
+  }
+  .row {
+    gap: 10px;
+  }
+  ._Section8 {
+    width: auto;
+    height: auto !important;
+  }
+  .boto8v1, .boto8v2, .bottom-8 {
+    flex-direction: column;
+    width: auto;
+    height: 365vh;
+  }
+  .bottom-8 img {
+    width: 100%;
+  }
+  .telifon {
+    flex-direction: column;
+  }
+  .coca {
+    height: 100vh !important;
+  }
+  .l3ar {
+    height: 100vh !important;
+    min-height: 600px;
+    position: relative;
+  }
+  ._Section12 {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .worow {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inpute {
+    width: 400px !important;
+  }
+  #arya {
+    width: 400px !important;
+  }
+  .left-12 {
+    width: 90%;
+  }
+  ._Footer {
+    height: 87vh !important;
+  }
+  .top-footer {
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    align-items: unset;
+  }
+  ._Section7, ._Section6 {
+    padding-bottom: 50px;
+    padding-top: -400px !important;
+  }
+  ._Section7 {
+    height: 300vh;
+  }
+}
+@media (max-width: 850px) {
+  .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    display: unset;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  ._Section2 img {
+    width: 400px !important;
+    height: 250px !important;
+  }
+  ._Section2 {
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+  ._Section2 .right {
+    width: 90% !important;
+  }
+  ._Section2 button {
+    position: relative;
+    left: -230px;
+    top: 0px;
+  }
+  .bottom-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart {
+    width: 90%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  ._Section5 {
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .bottom-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .formation {
+    flex-direction: column-reverse;
+  }
+  .page2 img {
+    display: block;
+    width: 350px !important;
+    height: auto;
+  }
+  .page2 {
+    flex-direction: column;
+    width: auto;
+  }
+  .righta {
+    width: 90% !important;
+  }
+  .carousel-item {
+    height: 80vh;
+    min-height: 600px;
+    position: relative;
+  }
+  .tablo {
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+  }
+  #area {
+    width: 680px;
+    padding: 8px;
+    height: 170px;
+  }
+  .tablo img {
+    width: 100%;
+  }
+  .inputo {
+    width: 680px;
+  }
+  .row {
+    gap: 10px;
+  }
+  ._Section8 {
+    width: auto;
+    height: auto !important;
+  }
+  .boto8v1, .boto8v2, .bottom-8 {
+    flex-direction: column;
+    width: 90%;
+    height: auto !important;
+  }
+  .bottom-8 img {
+    width: 100%;
+    height: auto;
+  }
+  ._Section9 img {
+    width: 100%;
+    height: auto;
+  }
+  .telifon {
+    flex-direction: column;
+  }
+  .coca {
+    height: 100vh !important;
+  }
+  .l3ar {
+    height: 100vh !important;
+    min-height: 200px;
+    position: relative;
+  }
+  ._Section12 {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .worow {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inpute {
+    width: 400px !important;
+  }
+  #arya {
+    width: 400px !important;
+  }
+  .left-12 {
+    width: 90%;
+  }
+  ._Footer {
+    height: 87vh !important;
+  }
+  .top-footer {
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    align-items: unset;
+  }
+  ._Section7, ._Section6 {
+    padding-bottom: 50px;
+    padding-top: -400px !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
